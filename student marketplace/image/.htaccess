@@ -1,0 +1,4 @@
+# Uploaded images must never be executed as scripts.
+<FilesMatch "\.(php|phtml|php[0-9]|phar|pl|py|cgi|sh)$">
+    Require all denied
+</FilesMatch>
